@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import "./index.css";
+import logo from '../public/weather.svg'
 import SearchIcon from "@mui/icons-material/Search";
 import { useStateContext } from "./Context";
 import BackgroundLayout from "./components/BackgroundLayout";
@@ -31,7 +32,7 @@ function App() {
               className="navbar-brand font-bold tracking-wide text-3xl text-black flex "
               href="#"
             >
-             <img className="me-1" src={'../public/weather.svg'} alt="weather_app_logo"/>Weather App
+             <img className="me-1" src={logo} alt="weather_app_logo"/>Weather App
             </a>
           </div>
         </div>
